@@ -4,7 +4,7 @@ public class User {
 	 System.out.println("Is Number Prime ? :"+ isPrime(11));
    }
    
-   public static int isPrime(int num){
+   public static boolean isPrime(int num){
 	   for(int i=2;i<num/2;i++){
 		   
 		   if(num%i==0)
