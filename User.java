@@ -13,4 +13,8 @@ public class User {
 	   }
 	   return true;
    }
+   
+   public static void show(){
+	   System.out.println("Hello from Show method!");
+   }
 }
